@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/editbutton">
+
+        <include layout="@layout/profile_image"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:padding="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center">
+               <TextView
+                   android:id="@+id/chat_fragment_username"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="UserName"
+                   android:textStyle="bold"
+                   android:textSize="20sp"></TextView>
+               <TextView
+                   android:id="@+id/chat_fragment_timestamp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10:00"
+                   android:layout_marginRight="10dp"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_gravity="center"
+                   android:gravity="end"></TextView>
+           </LinearLayout>
+            <TextView
+                android:id="@+id/chat_fragment_phoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+0000000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="left"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

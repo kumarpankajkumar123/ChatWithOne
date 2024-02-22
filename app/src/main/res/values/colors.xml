@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_primary">#3CECEC</color>
+    <color name="secondary">#DAB525</color>
+
+    <color name="my_btn">#E4105B</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="off_white">#079EE1</color>
+    <color name="light_gray">#9A8E8E</color>
+    <color name="sender_color">#35E412</color>
+    <color name="receiver_color">#1CE6ED</color>
+
+</resources>
